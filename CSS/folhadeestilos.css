@@ -41,6 +41,11 @@ nav a:hover {
     background-color: #eee;
 }
 
+.banner {
+    width:100%;
+    
+}
+
 .titulo-destaque {
     background-color: #f9f9f9;
     text-align: center;

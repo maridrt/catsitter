@@ -1,0 +1,65 @@
+/* Reset básico para remover estilos padrão de alguns navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* definir as propriedades do topo*/
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    position: relative;
+    top: 0;
+}
+
+/* definir as propriedades do logo*/
+.logo {
+    position: absolute;
+    width: 100px;
+    height: auto;
+}
+
+.logo img {
+    width: 90%;
+    margin-left: 10%;
+}
+
+/* definir as propriedades do menu*/
+nav {
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+    
+}
+
+nav ul li {
+    float: left;
+    width: auto;
+    margin: 1em;
+    font-size: 1.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a: hover {
+    color: #b13030
+}
+
+/* definir as propriedades da imagem principal*/
+#banner {
+    width: 90%,
+}
+
+#banner img {
+    width: 100%;
+    height: 50%;
+    margin-bottom: 0;
+    opacity: 40%;
+}

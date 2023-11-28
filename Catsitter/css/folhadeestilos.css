@@ -1,0 +1,112 @@
+/* Reset básico para remover estilos padrão de alguns navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container-principal {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #ffffff;
+   
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.logo img {
+    width: 200px;
+    height: auto;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: #333;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #eee;
+}
+
+.banner {
+    width:100%;
+    height:auto;
+    display: block;
+    
+}
+
+.titulo-destaque {
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.texto-com-fundo {
+    background-color: #e6e6e6;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.galeria {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.galeria figure {
+    width: 160px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.galeria img {
+    max-width: 40%;
+    height: auto;
+}
+
+.galeria figcaption {
+    margin-top: 10px;
+    max-width: 100%;
+
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+.textofigura {
+    color: red;
+    text-align: center;
+}

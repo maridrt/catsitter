@@ -7,8 +7,8 @@
     <title>Catsitter</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -25,34 +25,71 @@
             </div>
         </nav>
 
-            <div class="text-box">
-                <h1>Seu gato merece o melhor <br>e nós sabemos disso</h1>
-                <p> Viaje sem preocupação! Cuidamos do seu gato na sua própria casa. Seu felino tratado com muito carinho e respeito.</p>
-                <a href="" class="call-to-action-btn">Entre em contato e conheça nossos serviços </a>
-            </div>
+        <div class="text-box">
+            <h1>Seu gato merece o melhor <br>e nós sabemos disso</h1>
+            <p> Viaje sem preocupação! Cuidamos do seu gato na sua própria casa. Seu felino tratado com muito carinho e
+                respeito.</p>
+            <a href="" class="call-to-action-btn">Entre em contato e conheça nossos serviços </a>
+        </div>
     </section>
 
     <!-- Galeria de imagens -->
     <section class="galeria">
-                
+
         <figure>
-        <img src="img/clock.png" alt="tempo">
-    
-        <figcaption class="textofigura">Visita com uma hora de duração</figcaption>
+            <img src="img/clock.png" alt="tempo">
+            <figcaption class="textofigura">Visita com uma hora de duração</figcaption>
         </figure>
         <figure>
-        <img src="img/litter-box.png" alt="Limpeza">
-        <figcaption class="textofigura">Limpeza diária das liteiras</figcaption>
+            <img src="img/litter-box.png" alt="Limpeza">
+            <figcaption class="textofigura">Limpeza diária das liteiras</figcaption>
         </figure>
         <figure>
-        <img src="img/calendar.png" alt="Agenda">
-        <figcaption class="textofigura">Agende</figcaption>
+            <img src="img/calendar.png" alt="Agenda">
+            <figcaption class="textofigura">Agende</figcaption>
         </figure>
-        </section>
+    </section>
+
+    <!-- Vídeo -->
+    <section>
+        <div class="video">
+            <iframe width="500" height="280" src="https://www.youtube.com/embed/aGeIqwIBPZc"
+                title="Será que meu gato precisa de Cat Sitter?" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <!-- Mapa de localização -->
+    <section>
+        <div class="texto-mapa">
+            <p>Onde você encontra a gente</p>
+        </div>
+        <div class="mapa">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3578.5232853516472!2d-48.88666972537122!3d-26.244674965622075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dea58634aeb2f5%3A0xf2691d8b9f908fea!2sPerini%20Business%20Park!5e0!3m2!1spt-BR!2sbr!4v1701817424873!5m2!1spt-BR!2sbr"
+                width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <!-- Formulário -->
+    <section>
+        <p class="form-msg"> Tem alguma dúvida? Entre em contato!</p>
+        <div class="form">
+            <form action="sua-url-de-processamento.php" method="POST">
+                <input type="text" name="nome" placeholder="Nome" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="phone" name="telefone" placeholder="Telefone" required>
+                <input type="text" name="mensagem" placeholder="Mensagem" required>
+                <button class="btn-form" type="submit">Cadastrar</button>
+            </form>
+        </div>
+    </section>
 
 
     <footer>
-        Criado por Mari Duarte -- Apenas para fins didáticos
+        <h6>Criado por Mari Duarte -- Apenas para fins didáticos</h1>
     </footer>
 </body>
 

@@ -7,11 +7,12 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: url(img/patinhas.png);
+    background-image: url(img/patinhas3.png);
     opacity: 0.9;
     background-position: center;
     background-size: cover;
     position: relative;
+    background-color: rgba (240, 240, 240, 1);
 }
 
 nav {
@@ -22,13 +23,13 @@ nav {
 }
 
 nav img {
-    width: 150px;
-
+    width: 170px;
 }
 
 .nav-links {
     flex: 1;
     text-align: right;
+    padding-bottom: 50px;
 }
 
 .nav-links ul li {
@@ -38,18 +39,55 @@ nav img {
     position: relative;
 }
 
-.nav-links ul li a{
-    color: #696969;
+.nav-links ul li a {
+    color: #53494c;
     text-decoration: none;
-    font-size:25px;
+    font-size: 25px;
     font-family: ;
 }
 
-.nav-links ul li::after{
+.nav-links ul li::after {
     content: '';
-    width: 100%;
+    width: 0%;
     height: 2px;
-    background: #f44336;
+    background: #ff9ea3;
     display: block;
     margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+
+.text-box {
+    width: 90%;
+    color: #53494c;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-box h1 {
+    font-size: 62px;
+    line-height: 1.2em;
+}
+
+.text-box p {
+    margin: 10px 0 40px;
+    font-size: 16px;
+}
+
+.call-to-action-btn {
+    display: inline-block;
+    text-decoration:none;
+    color: #ff9ea3;
+    border: 1px solid #ff9ea3;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: #53494c;
+    positon: relative;
+    cursor: pointer;
 }
